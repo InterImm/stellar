@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include splash-index/head.html %}
+  <body>
+      {% include splash-index/header.html %}
+      <section id="about">
+        {% include splash-index/about.html %}
+      </section>
+      <section id="projects">
+        {% include splash-index/projects.html %}
+      </section>
+        {{ content }}
+      {% include splash-index/footer.html %}
+  </body>
